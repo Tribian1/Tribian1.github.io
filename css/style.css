@@ -1,0 +1,218 @@
+* {
+    font-family: 'Roboto' sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+
+    height: 50px;
+    background: #212121;
+}
+header{
+    position: relative;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+   
+}
+.menu_link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.menu_item{
+    border-right: 2px dotted black;
+    padding-right: 31px;
+}
+
+.menu_item:last-child {
+    border-right: none;
+}
+
+.subheader {
+    position: absolute ;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    height: 84px;
+}
+
+.subheader_official{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.subheader_logo {
+    display: block;
+    max-width: 100% ;
+    margin-top: 16px;
+}
+
+.subheader_call{
+    margin-top: 19px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    /* text-align: right; */
+    color: #FFFFFF;
+}
+
+.subheader_phone{
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: right;
+}
+
+.subheader_btn{
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;   
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12); 
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%); 
+    border-radius: 7px;
+    border: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: -66px;
+}
+
+
+.promo {
+    min-height: 800px;
+    background: url('../img/uber_bg.png') center center/cover no-repeat;
+    padding: 67px 0 135px 0;
+}
+
+
+.promo_header{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 60px;
+
+}
+.promo_subheader{
+    font-size: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 22px;
+    text-align: center;
+
+}
+
+.promo_descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 23px;
+}
+
+
+.promo_btn {
+    display: block;
+    margin: 115px auto 160px auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 7px;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.reason_block{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 35px;
+}
+
+.title_small{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 112px;
+    height: 24px;
+    background: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 7px 10px 25px 11px;
+}
+.title_main{
+    text-align: center;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 48px;
+    
+}
+
+.img_reason{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #1EACC7;
+    width: 113px;
+    height: 113px;
+    padding: 10px 10px 10px 10px; 
+}
+
+.text_reason{
+    width: 343px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    margin-left: 15px;
+  
+}
+.reason_discr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
